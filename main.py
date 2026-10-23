@@ -113,6 +113,7 @@ def main():
     balance = calculate_balance(startbudget)
 
     show_welcome_message(salutation, startbudget, fixed_costs, balance)
+
     while True:
         main_menu_choice = show_main_menu()
         if main_menu_choice == "1":
